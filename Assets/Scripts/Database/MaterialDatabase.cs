@@ -5,6 +5,8 @@ using UnityEngine;
 
 [CreateAssetMenu(menuName = "Database")]
 public class MaterialDatabase : ScriptableObject {
-    [SerializeField] private List<ItemData> _data = new();
+    [SerializeField] private List<MaterialData> _data = new();
+
+    public List<MaterialData> Data { get => _data;}
 }
 
