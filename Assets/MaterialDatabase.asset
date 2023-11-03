@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad251983f5a86d7489630a52b3d4b365, type: 3}
   m_Name: MaterialDatabase
   m_EditorClassIdentifier: 
-  _data: []
+  _data:
+  - _health: 50
+    _defense: 25
+    _name: Iron
+    m_material: {fileID: 0}
+  - _health: 100
+    _defense: 35
+    _name: Steel
+    m_material: {fileID: 0}
+  - _health: 40
+    _defense: 10
+    _name: Copper
+    m_material: {fileID: 0}
